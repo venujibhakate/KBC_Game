@@ -1,0 +1,30 @@
+body{
+    background-color:#D3D3D3;
+}
+tittle{
+    font-size:56px;
+    margin-left: 40%;
+    color:white;
+}
+.text{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+    color: brown;
+    margin-left:30%;
+}
+h1{
+    font-size:46px;
+    margin-left: 35%;
+    color:wheat;  
+}
+form{
+    background-color: black;
+    width:50%;
+    height: 400px;
+    margin-left: 25%;
+    margin-top: 5%;
+}
+img{
+    width:100%;
+    height: 350px;
+}

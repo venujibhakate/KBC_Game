@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="game.css">
+    </head>
+        <body>
+            <h1 class="text">$KON BANEGA CORODPATI</h1>
+        <form>
+        <tittle> QUIZ </tittle>
+        <h1>Play the KBC game</h1>
+        <img src="kbc.jpeg" alt="Girl">
+        <script type="text/javascript">
+
+            var score = 0;
+            alert("Welcome to the QUIZ!")
+            var q1;
+            q1 = prompt("What is the capital of the India? \n 1] Mumbai \n 2] Delhi")
+            if(q1 == "Delhi"){
+                score ++;
+                alert("Correct! your score is:" + score)
+            }
+            else{
+                alert("Wrong! :(your score is:"+score)
+            }
+
+            q2 = prompt("Who is the prime minister of India?\n 1]Narendra Modi \n 2] Kejriwal" )
+            if(q2 == "Narendra Modi"){
+                score ++;
+                alert("Correct! your score is:" + score)
+            }
+            else{
+                alert("Wrong! :(your score is:"+score)
+            }
+
+            q3 = prompt("Who is the co-founder of Navgurukul? \n 1] Abhishek Gupta \n 2] Abhishek sharma")
+            if(q3 == "Abhishek Gupta"){
+                score ++;
+                alert("Correct! your score is:" + score)
+            }
+            else{
+                alert("Wrong! :(your score is:"+score)
+            }
+
+            if(score == 3){
+                alert("You are winner of this game\n you with 5000rs")
+            }
+            else if (score == 2) {
+                alert("You win the 2000rs")
+            }
+            else{
+                alert("you tried very well")
+            }
+
+        </script>
+        </form>
+    <body>
+
+    </body>
+</html>
